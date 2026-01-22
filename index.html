@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>To-Do List App</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+    <div class="container">
+        <h1>To-Do List</h1>
+
+        <form id="todoForm">
+            <label for="todoInput">Kegiatan</label><br>
+            <input type="text" id="todoInput" placeholder="Masukan kegiatan..."><br>
+            <label for="dateInput">Tanggal</label><br>
+            <input type="date" id="dateInput"><br>
+            <button type="submit">Tambah</button>
+        </form>
+
+        <label for="filter"> Filter To-Do</label>
+        <select id="filter">
+            <option value="all">Semua</option>
+            <option value="today">Hari Ini</option>
+            <option value="future">Mendatang</option>
+        </select>
+
+        <ul id="todoList"></ul>
+    </div>
+
+
+
+
+
+
+
+
+
+<script src="js/script.js"></script>
+</body>
+</html>
